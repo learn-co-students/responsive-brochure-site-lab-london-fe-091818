@@ -1,0 +1,194 @@
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #92C9D5;
+  width: 100%;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+    color: #8b008b;
+    font-family: Courier New;
+    font-size: 300%;
+    text-align: center;
+}
+
+
+.mainnav {
+    list-style-type: none;
+    width: 100vw;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #bb8fbb;
+}
+
+
+.nav {
+    float: left;
+    border-right: 1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+
+.nav:hover {
+    background-color: #9370DB;
+}
+
+.cakes {
+  display:flex;
+  justify-content:center;
+}
+
+
+.cake1 {
+  background-image:url("http://gillianskitchen.com/wp-content/uploads/2018/01/Salt_Nigella-Choc-Brownies-7.jpg");
+  display: inline-block;
+  max-width: 100%;
+  background-color: #FCF2EC; 
+  width:300px;
+  padding:3em;
+  margin:6px;
+  color:#BBA3D0;
+  font-weight: bolder;
+  }
+  
+.cake1 {
+    float: left;
+}
+
+.cake2 {
+  background-image:url("https://www.nigella.com/assets/uploads/recipes/public-thumbnail/london-cheesecake-56387dfe87d59.jpg");
+  display: inline-block;
+  max-width: 100%;
+  background-color: #FCF2EC; 
+  width:300px;
+  padding:3em;
+  margin:6px;
+  color:#000000;
+  font-weight: bolder;
+  }
+  
+.cake2 {
+    float: left;
+}
+
+.cake3 {
+  background-image:url("https://img.delicious.com.au/Dut03LvA/w759-h506-cfill/del/2015/10/jam-tarts-11272-1.jpg");
+  display: inline-block;
+  max-width: 100%;
+  background-color: #FCF2EC; 
+  width:300px;
+  padding:3em;
+  margin:6px;
+  color:#FF1493;
+  font-weight: bolder;
+  }
+  
+.cake3 {
+    float: left;
+}
+
+
+/*Aside*/
+
+.div2 {
+  display:flex;
+  clear: left;
+  justify-content: center;
+}
+
+.x {
+  display: inline-block;
+  max-width: 100%;
+  background-color: #FCF2EC; 
+  width:200px;
+  height:20em;
+  padding:3em;
+  margin:6px;
+  color:#BBA3D0;
+  font-weight: bolder;
+  }
+  
+.x {
+    float: left;
+}
+
+.y {
+  display: inline-block;
+  max-width: 100%;
+  background-color: #FCF2EC; 
+  width:200px;
+  height:20em;
+  padding:3em;
+  margin:6px;
+  color:#BBA3D0;
+  font-weight: bolder;
+  }
+  
+.y {
+    float: left;
+}
+
+.z {
+  display: inline-block;
+  max-width: 100%;
+  background-color: #FC22EC; 
+  width:100px;
+  height:20em;
+  padding:3em;
+  margin:6px;
+  color:#000000;
+  }
+
+
+
+
+/*Footer*/
+
+.foot {
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #FF4500;
+}
+
+li a {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+@media only screen and (max-width: 600px)  {
+  h1 {
+    color: #008b8b;
+  }
+  }
